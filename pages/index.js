@@ -3,10 +3,11 @@ import { useState} from 'react';
 function Home(){
 
     return (
-        <div>
+        <>
             <h1>Home</h1>
+            <h2>Add</h2>
             <Contador />
-        </div>
+        </>
     )
 }
 
